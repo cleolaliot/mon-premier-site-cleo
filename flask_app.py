@@ -28,6 +28,9 @@ def accueil():
 def presentation():
     return "Je m'appelle Cleo et je suis étudiante."
 
+@app.route("/loisir")
+def presentation():
+    return "Je fais de l'equitation."
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
