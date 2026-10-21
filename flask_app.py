@@ -27,12 +27,12 @@ def accueil():
 @app.get("/presentation")
 def presentation():
     return """
-    <h1>Léa Martin</h1>
-    <p>Je suis étudiante en <strong>première année d'informatique</strong>.</p>
+    <h1>Cleo Laliot</h1>
+    <p>Je suis étudiante en <strong>première année de bachelor</strong>.</p>
     <h2>Ce que j'aime</h2>
     <ul>
-        <li>Les jeux vidéo</li>
-        <li>La musique</li>
+        <li>L'equiation</li>
+        <li>Les voyages</li>
         <li>Le code (bientôt !)</li>
     </ul>
     """
