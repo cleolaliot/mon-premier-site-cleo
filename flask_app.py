@@ -8,7 +8,7 @@
 #  Les consignes sont dans le dossier "exercices/".
 # ---------------------------------------------------------------
 
-ffrom flask import Flask, render_template, request, redirect, abort, jsonify
+from flask import Flask, render_template, request, redirect, abort, jsonify
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
